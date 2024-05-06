@@ -1,0 +1,9 @@
+# ALIAS
+alias ll='ls -l'
+alias la='ls -a'
+alias ..='cd ..'
+alias ...='cd ../..' 
+alias commit='git commit -m'
+alias commitall='git add . && commit'
+alias commitm='bash ~/my_scripts/commit-multiple-messages.sh'
+alias push='bash ~/my_scripts/push-current-git-branch.sh'
