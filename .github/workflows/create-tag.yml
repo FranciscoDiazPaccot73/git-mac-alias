@@ -1,4 +1,4 @@
-name: Bump Tag Version on Main Merge
+name: Bump Tag Version on Main Merge v1
 
 on:
   push:
