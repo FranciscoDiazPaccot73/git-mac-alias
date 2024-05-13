@@ -9,7 +9,7 @@ alias commitm='bash ~/my_scripts/commit-multiple-messages.sh'
 alias push='bash ~/my_scripts/push-current-git-branch.sh'
 alias pull='bash ~/my_scripts/pull-current-git-branch.sh'
 alias pullm='git pull origin master'
-alias status='git statusg'
+alias status='git status'
 alias new-branch='git checkout -b'
 
 # Redirect to apps and start server
