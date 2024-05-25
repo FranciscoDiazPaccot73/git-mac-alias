@@ -8,7 +8,6 @@ A collection of useful Bash aliases to streamline and enhance your day-to-day wo
 - [Installation](#installation)
 - [Aliases List](#aliases-list)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Getting Started
 
@@ -104,13 +103,14 @@ alias flushdns='dscacheutil -flushcache && sudo killall -HUP mDNSResponder' # Fl
 alias update='sudo softwareupdate -i -a; brew update; brew upgrade' # Update macOS and Homebrew packages
 alias df='df -h'                 # Show disk usage in human-readable format
 alias du='du -sh *'              # Show the size of directories and files in human-readable format
-
+```
 
 Feel free to modify or extend these aliases according to your needs.
 
-Contributing
+## Contributing
 Contributions are welcome! If you have a useful alias or improvement, please follow these steps:
 
+```
 Fork the repository.
 Create a new branch: git checkout -b feature/your-feature.
 Commit your changes: git commit -am 'Add your feature'.
