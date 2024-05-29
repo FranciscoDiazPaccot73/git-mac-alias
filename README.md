@@ -82,6 +82,7 @@ alias ll='ls -l'                  # List all files in long format without hidden
 alias llh='ls -lah'               # List all files in long format with hidden files
 alias ..='cd ..'                  # Navigate up one directory
 alias ...='cd ../..'              # Navigate up two directories
+alias port='bash ~/my_scripts/check-port.sh' # Check what is running on a port
 
 # Git
 alias status='git status'                                       # Show the working tree status
@@ -108,6 +109,7 @@ alias du='du -sh *'              # Show the size of directories and files in hum
 Feel free to modify or extend these aliases according to your needs.
 
 ## Contributing
+
 Contributions are welcome! If you have a useful alias or improvement, please follow these steps:
 
 ```
