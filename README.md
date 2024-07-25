@@ -92,7 +92,7 @@ alias new-branch='git checkout -b'                              # Create a new l
 alias commitall='git add . && commit'                           # Add all changes and commit with a message
 alias commitm='bash ~/my_scripts/commit-multiple-messages.sh'   # Commit with multiple messages
 alias push='bash ~/my_scripts/push-current-git-branch.sh'       # Push changes to the remote repository
-alias pull='bash ~/my_scripts/pull-current-git-branch.sh'       # Pull changes from current remote branch
+alias pull='bash ~/my_scripts/pull-current-git-branch.sh'       # Pull changes from current remote branch or from specific branch
 alias pullm='bash ~/my_scripts/pull-from-main.sh'               # Pull changes from main or master branch
 alias revert-file='bash ~/my_scripts/revert-file.sh'            # Revert file from a remote branch
 
