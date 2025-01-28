@@ -18,5 +18,6 @@ alias revert-file='bash ~/my_scripts/revert-file.sh'
 alias kill='bash ~/my_scripts/kill-port.sh'
 alias status='git status'
 alias new-branch='git checkout -b'
+alias new-express-app='bash ~/my_scripts/initialize-express-app.sh'
 
 ```
